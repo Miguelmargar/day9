@@ -23,7 +23,7 @@ describe("Extra calculator functions", function() {
         })
         it("should alert for NaN", function() {
             spyOn(window, "alert");
-            areaOfCircle("sting");
+            areaOfCircle("string");
             expect(window.alert).toHaveBeenCalledWith("Argument given in not a number");
         })
         

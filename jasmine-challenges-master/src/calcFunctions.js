@@ -16,10 +16,6 @@ function areaOfCircle(n) {
     }
 }
 
-
-
-
-
 function squareRoot(n) {
     let result = Math.sqrt(n);
     return Number(result.toFixed(2));
